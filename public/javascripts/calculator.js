@@ -51,6 +51,7 @@ var topnum = 0;
 var bottomnum = 0;
 var fresh = 0;
 
+// Make sure that no non-numerical input is entered.
 function isNumberKey(evt)
        {
           var charCode = (evt.which) ? evt.which : evt.keyCode;
@@ -60,7 +61,7 @@ function isNumberKey(evt)
 
           return true;
        }
-       
+
 // Special Buttons
 function clearEverythingFunction(){
 	console.log("Function clearEverythingFunction activated.");

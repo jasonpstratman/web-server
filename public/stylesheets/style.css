@@ -18,8 +18,12 @@
 	padding: 20px 0px;
 }
 
-.calculator {
-	padding: 100px 0;
+#calculator {
+	padding: 5px 0;
+}
+
+.history {
+	margin: 35px 0;	
 }
 
 .button-row {
